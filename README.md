@@ -1,4 +1,4 @@
-// Reusing the existing project - mainly for the right package dependencies; 
+// Forked from an existing project - mainly for the right package dependencies; 
 
 // creating a new next project via npx, and modifying to support graphql and apollo client is giving issues with useQuery - the props or the client object is not sent down to the children components
 similar to https://github.com/apollographql/apollo-client/issues/7242
