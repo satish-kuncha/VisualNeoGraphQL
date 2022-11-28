@@ -8,3 +8,7 @@ similar to https://github.com/apollographql/apollo-client/issues/7242
 // To figure out - how to fix the invariant violation issue with new create-next-app template - since we can use Next js 13, apolloserver4 , and typesript support - can look at typegrapql 
 
 //To later add other react-force-graph aspects
+
+// If you get error about openssl address it via https://bobbyhadz.com/blog/react-error-digital-envelope-routines-unsupported
+
+// if yarn is not able to be added to the global context - update path to add the location of npmmodules yarn/bin to the path  in Windows 
