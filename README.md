@@ -1,21 +1,10 @@
-# Lobsters Graph
+// Reusing the existing project - mainly for the right package dependencies; 
 
-This is a fullstack application built using Neo4j Aura, GraphQL, & Next.js to demonstrate the power of graph visualization and social network data using data from the [Lobsters](https://lobste.rs/) social news aggregator.
+// creating a new next project via npx, and modifying to support graphql and apollo client is giving issues with useQuery - the props or the client object is not sent down to the children components
+similar to https://github.com/apollographql/apollo-client/issues/7242
 
-![Architecture Diagram](img/archdiagram.png)
+// To improve the graph visualization - to properly show nodes and icons differently
 
-## Livestream Series
+// To figure out - how to fix the invariant violation issue with new create-next-app template - since we can use Next js 13, apolloserver4 , and typesript support - can look at typegrapql 
 
-This application is being built live on the [Neo4j livestream.](https://twitch.tv/neo4j) You can join live or find the recordings and write ups below:
-
-* **No Code Data Scraping With GitHub Actions & Neo4j Aura** - [[blog post](https://lyonwj.com/blog/no-cost-data-scraping-github-actions-neo4j-aura), [video](https://www.youtube.com/watch?v=jAweyWeO2cM)]
-* **Building A GraphQL Server With Next.js** - [[blog post](https://lyonwj.com/blog/graphql-server-next-js-neo4j-aura-vercel), [video](https://www.youtube.com/watch?v=XVhdpP2GtPQ)]
-* **Graph Data Visualization With GraphQL & react-force-graph** - [[blog post](https://lyonwj.com/blog/graph-visualization-with-graphql-react-force-graph), [video](https://www.youtube.com/watch?v=yLDO_FH6hGY)]
-
-## Graph Data Model
-
-![graph data model](img/datamodel.png)
-
-## Data Import
-
-The Lobsters newest and hottest JSON endpoints are scraped each hour using GitHub Actions and Neo4j Aura. See [/.github/workflows/lobsters.yml](/.github/workflows/lobsters.yml)
+//To later add other react-force-graph aspects
