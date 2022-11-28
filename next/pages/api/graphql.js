@@ -2,7 +2,6 @@ import { gql, ApolloServer } from "apollo-server-micro";
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import neo4j from "neo4j-driver";
 import { Neo4jGraphQL } from "@neo4j/graphql";
-import "ts-tiny-invariant"
 
 const typeDefs = gql`
 type Application {
